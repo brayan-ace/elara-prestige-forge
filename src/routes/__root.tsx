@@ -76,10 +76,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Experience world-class luxury at Allan Keri Hotel & Suites. Premium suites, fine dining, swimming pool and elegant hospitality in the heart of Nigeria." },
       { name: "author", content: "Allan Keri Hotel & Suites" },
       { property: "og:title", content: "Allan Keri Hotel & Suites — Luxury Hospitality in Nigeria" },
-      { property: "og:description", content: "Where elegance meets comfort. Book your stay at Nigeria's premium luxury hotel." },
+      { property: "og:description", content: "Experience world-class luxury at Allan Keri Hotel & Suites. Premium suites, fine dining, swimming pool and elegant hospitality in the heart of Nigeria." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Allan Keri Hotel & Suites — Luxury Hospitality in Nigeria" },
+      { name: "twitter:description", content: "Experience world-class luxury at Allan Keri Hotel & Suites. Premium suites, fine dining, swimming pool and elegant hospitality in the heart of Nigeria." },
     ],
     links: [
       {
